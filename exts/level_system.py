@@ -27,7 +27,7 @@ class Levels_with_postgres(commands.Cog):
 
         # The if condition that denies levelling up to bots, will add the check for level pause here too in future
         # update
-        if not message.author.bot:
+        if not message.author.bot and not isinstance(message.channel, discord.DMChannel):
             if message.author.id not in self.all_member_ids:
 
                 # This should make clearer how the cache is implemented
