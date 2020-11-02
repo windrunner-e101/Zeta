@@ -2,14 +2,14 @@ import discord
 from discord.ext import commands
 import json
 import datetime
+import os
 
 # Loads the priviliged ones too, in the current state they're not particularly in much use but plans for later features
 # will require
 intents = discord.Intents.all()
 
 # Bot token saved in a json file with the key "bot_token"
-with open('creds.json') as f:
-    TOKEN = json.load(f)['bot_token']
+TOKEN = os.environ['DATABASE_URL']
 
 # Basic stuffs
 bot = commands.Bot(command_prefix='.', intents=intents)
