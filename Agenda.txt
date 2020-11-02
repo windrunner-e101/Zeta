@@ -1,0 +1,26 @@
+1) Fix the bug that causes 5 extra exp to be given to the target when supplied with the level command
+Status: Fixed
+
+2) Implement picking out the lockdown ignored channels from the database instead of code body
+Status: Done
+
+3) Implement the lockdown ignore command for Admins
+Status: Done
+
+4) Implement the levelignore command for Admins
+Status: Not done
+
+5) Implement a birthday alert system
+Status: Not done
+
+6) Implement GCR post alert system
+Status: Not done
+
+7) Implement status message "Press .help for usage"
+Status: Done
+
+8) Update the help command with all the new commands
+Status: Not done
+
+9) Implement a bug report command
+Status: Not done
