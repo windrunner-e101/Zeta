@@ -20,7 +20,7 @@ bot.remove_command('help')
 @bot.event
 async def on_ready():
     print(f"Successfully started process at {datetime.datetime.now()}")
-    game = discord.Game("Press .help for usage")
+    game = discord.Game("Type .help for usage")
     await bot.change_presence(status=discord.Status.online, activity=game)
 
 
