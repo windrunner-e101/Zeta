@@ -24,3 +24,6 @@ Status: Not done
 
 9) Implement a bug report command
 Status: Not done
+
+10) Make it so that DM channels do not count towards giving exp
+Status: Done
