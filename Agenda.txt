@@ -16,7 +16,7 @@ Status: Not done
 6) Implement GCR post alert system
 Status: Not done
 
-7) Implement status message "Press .help for usage"
+7) Implement status message "Type .help for usage"
 Status: Done
 
 8) Update the help command with all the new commands
