@@ -27,3 +27,10 @@ Status: Not done
 
 10) Make it so that DM channels do not count towards giving exp
 Status: Done
+
+11) Add a programming support feature
+Status: Not done
+
+12) Make the database handler async
+Status: Not done
+
