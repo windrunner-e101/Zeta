@@ -31,9 +31,6 @@ Status: Done
 11) Add a programming support feature
 Status: Not done
 
-12) Features replacing groovy and rythm
-Status: Legit dream
-
-13) Make the database handler async
+12) Make the database handler async
 Status: Not done
 
